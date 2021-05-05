@@ -1,8 +1,9 @@
 - name: Exploring webhooks
   connection: local
   hosts: localhost
+  gather_facts: true
   
   tasks:
   - name: print to the screen
     debug:
-        msg: "Suresh webhook just ran!"
+      msg: "Suresh webhook just ran again!!!
